@@ -1,0 +1,108 @@
+/* WSTAWIĆ FIELDSET (???) */
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	height: 100%;
+	/*
+	width: 100%;
+	*/
+	
+	margin: 0 auto;
+	padding: 0;
+	
+	background-color: white;
+	
+	width: 50%;
+	
+	text-align: center;
+}
+
+#info
+{
+	/* background-color: white; */
+}
+
+hr
+{
+	width: 66%;
+	border: 2px solid black;
+	border-radius: 2px;
+}
+
+.img-photo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+
+#text
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+}
+
+.mybutton
+{
+	width: 66%;
+	height: 50px;
+	
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	
+	font-weight: bold;
+	font-size: 25px;
+	
+	border-radius: 15px;
+	
+	margin-bottom: 25px;
+}
+
+.mybutton:hover
+{
+	color: white;
+	background-color: black;
+}
+
+.my-line
+{
+	margin-bottom: 25px;
+}
+
+/*
+ * *****************************************
+ *  !!! MOBILE BELOW !!!
+ * *****************************************
+ * */
+
+@media only screen and (max-width: 800px)
+{
+	body
+	{
+		width: 100%;
+	}
+	
+	hr
+	{
+		width: 85%;
+	}
+	
+	#text
+	{
+		width: 85%;
+	}
+	
+	.mybutton
+	{
+		width: 85%;
+	}
+}
