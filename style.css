@@ -48,6 +48,8 @@ hr
 	margin-left: auto;
 	margin-right: auto;
 	width: 66%;
+	
+	font-style: italic;
 }
 
 .mybutton
@@ -76,6 +78,18 @@ hr
 .my-line
 {
 	margin-bottom: 25px;
+}
+
+.language
+{
+	font-family: "Courier New";
+
+	border: 1px solid black;
+	padding: 2px;
+	margin: 2px;
+	
+	font-style: normal;
+	font-weight: bold;
 }
 
 /*
