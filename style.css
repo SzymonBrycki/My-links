@@ -63,6 +63,8 @@ hr
 	border-radius: 15px;
 	
 	margin-bottom: 25px;
+
+	cursor: pointer;
 }
 
 .mybutton:hover
